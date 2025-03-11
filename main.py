@@ -36,7 +36,7 @@ def main():
     rotation = 0
     while running:
         running = handle_events()
-        screen.fill(config.WHITE) # Use color from config
+        screen.fill(config.BLACK) # Use color from config
 
         rotation += 1
 
